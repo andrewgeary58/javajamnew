@@ -1,34 +1,23 @@
-*{box-sizing: border-box;}
-
-
-
-
-
-
 body { background-color: #FCEBB6;
        color: #221811;
 	   font-family: Tahoma, Arial, sans-serif; 
           background-image: url(fadedroad50.jpg);
           background-repeat: no-repeat;
 }
-#wrapper { background-color: #231814;
+#wrapper { background-color: #FEFAEB;
            margin-left: auto;
            margin-right: auto;
            width: 80%;
            min-width: 900px;
            max-width: 1280px;
            box-shadow: 3px 3px 3px #676767;
-           padding: 0;
-
 }   
 header { background-color: #D2B48C; 
          color: #8C3826; 
+         text-align: center; 
          padding-top: 5px;
          padding-bottom: 5px;
-        background-image: url(coffeelogo.jpg);
-        background-repeat: no-repeat;
-        padding-left: 240px;
-        color: #231814;
+
 }
 h1 { 
        font-size: 3em;
@@ -39,13 +28,8 @@ nav { font-weight: bold;
          font-size: 1.5em;
          padding-top: 5px;
          padding-bottom: 5px;
-         float: left 200px;
 }
-nav a{text-decoration: none;
-
-       
-
-}
+nav a{text-decoration: none;}
 footer { background-color: #D2B48C;
          font-size: .60em;
 		 font-style: italic;
@@ -59,10 +43,7 @@ h4{
        font-size: 1.2em;
        padding-left: .5em;
        padding-bottom: .25em;
-       text-transform: uppercase;
-       border-bottom: ;
-       padding: bottom 0; 
-       s
+
 }
  
 h3, dt{
@@ -72,14 +53,10 @@ h3, dt{
 
 
 main{
-       padding-left: 0;
+       padding-left: 2em;
        padding-bottom: 2em;
-       padding-right: 0;
-       padding-top: 0;
+       padding-right: 2em;
        display: block;
-       margin-left: 200%;
-       background-color: #fef6c2;
-       overflow: auto;
 }
 
 .details{
@@ -95,34 +72,6 @@ img{
 #homehero{
        background-image: url(hero.jpg);
        height: 300px;
-       background-size: 100% 100%;
+       background-size: cover;
        background-repeat: no-repeat;
-
-}
-
-#heromugs{
-       background-image: url(heromugs.jpg);
-       height: 300px;
-       background-size: 100% 100%;
-       background-repeat: no-repeat;
-
-}
-
-#heroguitar{
-       background-image: url(heroguitar.jpg);
-       height: 300px;
-       background-size: 100% 100%;
-       background-repeat: no-repeat;
-
-}
-
-
-h2,h2,h4,p,div,ul,dl{
-       padding-left: 3em;
-       padding-right: 2em;
-}
-
-nav, ul{
-       padding-left: 0;
-       list-style: none;
 }
